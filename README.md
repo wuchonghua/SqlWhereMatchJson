@@ -22,6 +22,8 @@ JSON 如：
     "d": "hello" 
 }
 ```
-SQL 如:a = "something",输出为 false,
-SQL 如:a = 2 and d like "he%" or a = 1,输出为 true,
+SQL 如:a = "something",输出为 false
+
+SQL 如:a = 2 and d like "he%" or a = 1,输出为 true
+
 可以不支持多层嵌套，支持则更优，SQL如：a = 2 or b.c < 3,输出为true
